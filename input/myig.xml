@@ -52,6 +52,16 @@
         <generation value="html"/>
       </page>
       <page>
+        <nameUrl value="intro.html"/>
+        <title value="How to read this document"/>
+        <generation value="html"/>
+        <page>
+          <nameUrl value="spec.html"/>
+          <title value="How to read this document"/>
+          <generation value="html"/>
+        </page>
+      </page>
+      <page>
         <nameUrl value="downloads.html"/>
         <title value="Useful Downloads"/>
         <generation value="html"/>
