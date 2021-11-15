@@ -54,11 +54,11 @@
       <page>
         <nameUrl value="intro.html"/>
         <title value="How to read this document"/>
-        <generation value="html"/>
+        <generation value="markdown"/>
         <page>
           <nameUrl value="spec.html"/>
           <title value="How to read this document"/>
-          <generation value="html"/>
+          <generation value="markdown"/>
         </page>
       </page>
       <page>
