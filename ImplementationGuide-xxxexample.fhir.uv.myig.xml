@@ -12,7 +12,7 @@
   <title value="xxxYour User Friendly Name for MyIG Here"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-11-15T15:45:40+00:00"/>
+  <date value="2021-11-15T15:54:02+00:00"/>
   <publisher value="xxxYour Work Group"/>
   <contact>
     <telecom>
@@ -242,13 +242,13 @@
       </page>
       <page>
         <nameUrl value="intro.html"/>
-        <title value="How to read this document"/>
+        <title value="Introduction"/>
         <generation value="markdown"/>
-        <page>
-          <nameUrl value="spec.html"/>
-          <title value="How to read this document"/>
-          <generation value="markdown"/>
-        </page>
+      </page>
+      <page>
+        <nameUrl value="spec.html"/>
+        <title value="Specification"/>
+        <generation value="markdown"/>
       </page>
       <page>
         <nameUrl value="downloads.html"/>
