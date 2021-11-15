@@ -1,0 +1,24 @@
+@startuml
+
+object managedOrganization{
+    geolocation
+}
+Object ManagedCapabilityStatement{
+software
+name
+title 
+instantiates 
+}
+Object ActorManagedCapabilitStatement{
+rest
+messaging
+document
+...
+}
+
+
+ManagedCapabilityStatement --|> managedOrganization: contains
+ManagedCapabilityStatement --|> ActorManagedCapabilitStatement: Instantiates
+
+
+@enduml
