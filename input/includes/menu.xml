@@ -12,10 +12,10 @@
 		</a>
 		<ul class="dropdown-menu">
 			<li>
-				<a href="intro.html">Artifact Index</a>
+				<a href="intro.html">Introduction</a>
 			</li>
 			<li>
-				<a href="spec.html">Artifact Index</a>
+				<a href="spec.html">Specification</a>
 			</li>
 		</ul>
 	</li>
