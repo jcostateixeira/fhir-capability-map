@@ -1,10 +1,11 @@
 ﻿xxxYourComputableMyIGNameHere : Validation Results
 =========================================
 
-err = 9, warn = 6, info = 0
+err = 12, warn = 9, info = 0
 IG Publisher Version: 1.1.86
-Generated Mon Nov 15 11:55:03 UTC 2021. FHIR version 4.0.1 for xxxexample.fhir.uv.myig#0.1.0-test (canonical = xxxhttp://somewhere.org/fhir/uv/myig)
- Build Errors : 23 / 2 / 0
+Generated Mon Nov 15 15:19:38 UTC 2021. FHIR version 4.0.1 for xxxexample.fhir.uv.myig#0.1.0-test (canonical = xxxhttp://somewhere.org/fhir/uv/myig)
+ Build Errors : 32 / 3 / 0
+ /github/workspace/fsh-generated/resources/StructureDefinition-ActorsMappedCapability : 2 / 2 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-MappedCapability : 2 / 2 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-MappedOrganization : 2 / 1 / 1
  /github/workspace/input/myig : 3 / 1 / 1
@@ -12,16 +13,26 @@ Generated Mon Nov 15 11:55:03 UTC 2021. FHIR version 4.0.1 for xxxexample.fhir.u
 == n/a ==
 ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureDefinition/MappedOrganization.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/MappedOrganization.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureDefinition/ActorsMappedCapability.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/ActorsMappedCapability.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: Unable to find ImplementationGuide.definition.resource.name for the resource StructureDefinition/MappedCapability.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/MappedCapability.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: /github/workspace/output/StructureDefinition-ActorsMappedCapability-definitions.html#/html/body/div/div/div/p/a at Line 1497, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ActorsMappedCapability-examples.html#/html/body/div/div/div/p/a at Line 278, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ActorsMappedCapability-mappings.html#/html/body/div/div/div/p/a at Line 371, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ActorsMappedCapability.html#/html/body/div/div/div/p/a at Line 1280, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ActorsMappedCapability.profile.history.html#/html/body/div/div/div/p/a at Line 267, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ActorsMappedCapability.profile.json.html#/html/body/div/div/div/p/a at Line 5681, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ActorsMappedCapability.profile.ttl.html#/html/body/div/div/div/p/a at Line 5045, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-ActorsMappedCapability.profile.xml.html#/html/body/div/div/div/p/a at Line 5095, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MappedCapability-definitions.html#/html/body/div/div/div/p/a at Line 1497, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MappedCapability-examples.html#/html/body/div/div/div/p/a at Line 278, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MappedCapability-mappings.html#/html/body/div/div/div/p/a at Line 371, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MappedCapability.html#/html/body/div/div/div/p/a at Line 1274, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MappedCapability.html#/html/body/div/div/div/p/a at Line 1280, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MappedCapability.profile.history.html#/html/body/div/div/div/p/a at Line 267, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MappedCapability.profile.json.html#/html/body/div/div/div/p/a at Line 5666, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MappedCapability.profile.ttl.html#/html/body/div/div/div/p/a at Line 5033, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MappedCapability.profile.xml.html#/html/body/div/div/div/p/a at Line 5080, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MappedCapability.profile.json.html#/html/body/div/div/div/p/a at Line 5681, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MappedCapability.profile.ttl.html#/html/body/div/div/div/p/a at Line 5045, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MappedCapability.profile.xml.html#/html/body/div/div/div/p/a at Line 5095, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MappedOrganization-definitions.html#/html/body/div/div/div/p/a at Line 554, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MappedOrganization-examples.html#/html/body/div/div/div/p/a at Line 278, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MappedOrganization-mappings.html#/html/body/div/div/div/p/a at Line 334, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
@@ -30,11 +41,16 @@ ERROR: /github/workspace/output/StructureDefinition-MappedOrganization.profile.h
 ERROR: /github/workspace/output/StructureDefinition-MappedOrganization.profile.json.html#/html/body/div/div/div/p/a at Line 1654, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MappedOrganization.profile.ttl.html#/html/body/div/div/div/p/a at Line 1488, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MappedOrganization.profile.xml.html#/html/body/div/div/div/p/a at Line 1508, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
-ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/a at Line 222, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/a at Line 228, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/changes.html#/html/body/div/div/div/p/a at Line 193, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/downloads.html#/html/body/div/div/div/p/a at Line 229, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/index.html#/html/body/div/div/div/p/a at Line 219, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
 ERROR: /github/workspace/output/toc.html#/html/body/div/div/div/p/a at Line 182, column 28: The link 'xxxhttp://hl7.org/Special/committees/[something]' for "xxxYour Work Group" cannot be resolved
+== fsh-generated/resources/StructureDefinition-ActorsMappedCapability.json ==
+ERROR: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/ActorsMappedCapability'): Conformance resource /github/workspace/fsh-generated/resources/StructureDefinition-ActorsMappedCapability.json - the canonical URL (xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/ActorsMappedCapability) does not match the URL (http://example.com/fhir/example/StructureDefinition/ActorsMappedCapability)
+WARNING: StructureDefinition/ActorsMappedCapability: StructureDefinition.snapshot.element[0].constraint[6].xpath: value should not start or finish with whitespace
+WARNING: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/ActorsMappedCapability'): The Implementation Guide contains no examples for this profile
+ERROR: /github/workspace/fsh-generated/resources/StructureDefinition-ActorsMappedCapability: URL Mismatch xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/ActorsMappedCapability vs http://example.com/fhir/example/StructureDefinition/ActorsMappedCapability
 == fsh-generated/resources/StructureDefinition-MappedCapability.json ==
 ERROR: StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/MappedCapability'): Conformance resource /github/workspace/fsh-generated/resources/StructureDefinition-MappedCapability.json - the canonical URL (xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MappedCapability) does not match the URL (http://example.com/fhir/example/StructureDefinition/MappedCapability)
 WARNING: StructureDefinition/MappedCapability: StructureDefinition.snapshot.element[0].constraint[6].xpath: value should not start or finish with whitespace
