@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>XXXEXAMPLE.FHIR.UV.MYIG\ - FHIR v4.0.1</title>
+    <title>XXXEXAMPLE.FHIR.UV.MYIG\ - Mappings - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -45,8 +45,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:""}
-    h3,h4,h5,h6{--heading-prefix:""}</style>
+    <style type="text/css">h2{--heading-prefix:"4.2"}
+    h3,h4,h5,h6{--heading-prefix:"4.2"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
           <!-- Placeholder for child template header declarations -->
@@ -128,7 +128,7 @@
     <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
       <div class="container">    <!-- container -->
         <ul class="breadcrumb">
-          
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b></b></li>
           
         </ul>
       </div>    <!-- /container -->
@@ -140,7 +140,7 @@
         <div class="row">
           <div class="inner-wrapper">
 
-<div style="counter-reset: section 6" class="col-12">
+<div style="counter-reset: section 5" class="col-12">
     <!-- ReleaseHeader --><p id="publish-box">xxxYour User Friendly Name for MyIG Here - Local Development build (v0.1.0-test). See the <a href="xxxhttp://somewhere.org/fhir/uv/myig/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
   
 
@@ -157,20 +157,20 @@
 <ul class="nav nav-tabs">
 
   <li>
-    <a href="StructureDefinition-MappedCapability.html">Content</a>
+    <a href="StructureDefinition-ActorsMappedCapability.html">Content</a>
   </li>
 
 
 
   <li>
-    <a href="StructureDefinition-MappedCapability-definitions.html">Detailed Descriptions</a>
+    <a href="StructureDefinition-ActorsMappedCapability-definitions.html">Detailed Descriptions</a>
   </li>
 
 
 
   
-    <li>
-      <a href="StructureDefinition-MappedCapability-mappings.html">Mappings</a>
+    <li class="active">
+      <a href="#">Mappings</a>
     </li>
   
 
@@ -180,21 +180,21 @@
 
   
     <li>
-      <a href="StructureDefinition-MappedCapability.profile.xml.html">XML</a>
+      <a href="StructureDefinition-ActorsMappedCapability.profile.xml.html">XML</a>
     </li>
   
 
 
   
     <li>
-      <a href="StructureDefinition-MappedCapability.profile.json.html">JSON</a>
+      <a href="StructureDefinition-ActorsMappedCapability.profile.json.html">JSON</a>
     </li>
   
 
 
   
     <li>
-      <a href="StructureDefinition-MappedCapability.profile.ttl.html">TTL</a>
+      <a href="StructureDefinition-ActorsMappedCapability.profile.ttl.html">TTL</a>
     </li>
   
 
@@ -202,21 +202,114 @@
 </ul>
 
 
-  <a name="root"> </a>
-  <h2 id="root">Resource Profile: MappedCapability - Examples</h2>
+<a name="root"> </a>
+<h2 id="root">Resource Profile: ActorsMappedCapability - Mappings</h2>
 
-     <!-- insert intro if present -->
-    
+<p>Mappings for the ActorsMappedCapability resource profile.</p>
 
-
-
-
-
-  <p><b>No examples are currently available for the  Profile.</b></p>
+    <!-- insert intro if present -->
+  
 
 
-  <!-- insert notes if present -->
 
+  <a name="rim"> </a><h3>Mappings for RIM Mapping (<a href="http://hl7.org/comparison-v3.html">http://hl7.org/v3</a>)</h3><table class="grid">
+ <tr><td colspan="3"><b>ActorsMappedCapability</b></td></tr>
+ <tr><td>CapabilityStatement</td><td>Entity. Role, or Act, n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;text</td><td>Act.text?</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;contained</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;extension</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;software</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;implementation</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;rest</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;security</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;resource</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;interaction</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;searchParam</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;operation</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;interaction</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;messaging</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;endpoint</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;supportedMessage</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;document</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;extension</td><td>n/a</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;modifierExtension</td><td>N/A</td> </tr>
+</table>
+<a name="workflow"> </a><h3>Mappings for Workflow Pattern (<a href="http://hl7.org/fhir/workflow.html">http://hl7.org/fhir/workflow</a>)</h3><table class="grid">
+ <tr><td colspan="3"><b>ActorsMappedCapability</b></td></tr>
+ <tr><td>CapabilityStatement</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;url</td><td>Definition.url</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;version</td><td>Definition.version</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;title</td><td>Definition.title</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;status</td><td>Definition.status</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;experimental</td><td>Definition.experimental</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;date</td><td>Definition.date</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;publisher</td><td>Definition.publisher</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;contact</td><td>Definition.contact</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;description</td><td>Definition.description</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;useContext</td><td>Definition.useContext</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;jurisdiction</td><td>Definition.jurisdiction</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;purpose</td><td>Definition.purpose</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;copyright</td><td>Definition.copyright</td> </tr>
+</table>
+<a name="w5"> </a><h3>Mappings for FiveWs Pattern Mapping (http://hl7.org/fhir/fivews)</h3><table class="grid">
+ <tr><td colspan="3"><b>ActorsMappedCapability</b></td></tr>
+ <tr><td>CapabilityStatement</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;url</td><td>FiveWs.identifier</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;version</td><td>FiveWs.version</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;status</td><td>FiveWs.status</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;experimental</td><td>FiveWs.class</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;date</td><td>FiveWs.recorded</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;publisher</td><td>FiveWs.witness</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;purpose</td><td>FiveWs.why[x]</td> </tr>
+</table>
+<a name="objimpl"> </a><h3>Mappings for Object Implementation Information (http://hl7.org/fhir/object-implementation)</h3><table class="grid">
+ <tr><td colspan="3"><b>ActorsMappedCapability</b></td></tr>
+ <tr><td>CapabilityStatement</td><td></td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;purpose</td><td>no-gen-base</td> </tr>
+ <tr><td>&nbsp;&nbsp;&nbsp;copyright</td><td>no-gen-base</td> </tr>
+</table>
+
+
+    <!-- insert notes if present -->
+  
 
 
 
@@ -265,7 +358,7 @@
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="l352">​</a>
+        <p><a name="l974">​</a>
           IG &copy; 2019+ <a style="color:var(--footer-hyperlink-text-color)" href="xxxhttp://hl7.org/Special/committees/[something]">xxxYour Work Group</a>.  Package xxxexample.fhir.uv.myig#0.1.0-test based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Nov 15, 2021 15:19+0000">2021-11-15</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>

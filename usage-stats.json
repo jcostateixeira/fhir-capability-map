@@ -7,6 +7,10 @@
   "profiles": {
     "CapabilityStatement": [
       {
+        "url": "http://example.com/fhir/example/StructureDefinition/ActorsMappedCapability",
+        "title": "ActorsMappedCapability"
+      },
+      {
         "url": "http://example.com/fhir/example/StructureDefinition/MappedCapability",
         "title": "MappedCapability"
       }

@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 21, errors = 9, warn = 6, info = 0 -->
+<!-- broken links = 29, errors = 12, warn = 9, info = 0 -->
 <head>
   <title>xxxYourComputableMyIGNameHere : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -36,7 +36,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for xxxYourComputableMyIGNameHere</h1>
- <p>Generated Mon Nov 15 11:55:03 UTC 2021, FHIR version 4.0.1 for xxxexample.fhir.uv.myig#0.1.0-test (canonical = <a href="xxxhttp://somewhere.org/fhir/uv/myig">xxxhttp://somewhere.org/fhir/uv/myig</a> (<a href="xxxhttp://somewhere.org/fhir/uv/myig/history.html">history</a>)). See <a href="/github/workspace/output/qa.min.html">Errors Only</a></p>
+ <p>Generated Mon Nov 15 15:19:38 UTC 2021, FHIR version 4.0.1 for xxxexample.fhir.uv.myig#0.1.0-test (canonical = <a href="xxxhttp://somewhere.org/fhir/uv/myig">xxxhttp://somewhere.org/fhir/uv/myig</a> (<a href="xxxhttp://somewhere.org/fhir/uv/myig/history.html">history</a>)). See <a href="/github/workspace/output/qa.min.html">Errors Only</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
  <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.1.86</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = xxxexample.fhir.uv.myig, Canonical = xxxhttp://somewhere.org/fhir/uv/myig</td></tr>
@@ -50,14 +50,17 @@
  <br/><br/>The copyrightYear parameter ('2019+') in the IG resource is good</td></tr>
  <tr><td>HTA Analysis:</td><td><i>Non-HL7 Igs are exempt from terminology dependency analysis</i></td></tr>
  <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at xxxhttp://somewhere.org/fhir/uv/myig (Problem #1 with package-list.json at xxxhttp://somewhere.org/fhir/uv/myig: unknown protocol: xxxhttp)</td></tr>
- <tr><td>Summary:</td><td> broken links = 21, errors = 9, warn = 6, info = 0</td></tr>
+ <tr><td>Summary:</td><td> broken links = 29, errors = 12, warn = 9, info = 0</td></tr>
 </table>
  <table class="grid">
    <tr>
      <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Warnings</b></td><td><b>Hints</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>23</b></td><td><b>2</b></td><td><b>0</b></td>
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>32</b></td><td><b>3</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_github_workspace_fsh-generated_resources_StructureDefinition-ActorsMappedCapability"><b>/github/workspace/fsh-generated/resources/StructureDefinition-ActorsMappedCapability</b></a></td><td><b>2</b></td><td><b>2</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><a href="#_github_workspace_fsh-generated_resources_StructureDefinition-MappedCapability"><b>/github/workspace/fsh-generated/resources/StructureDefinition-MappedCapability</b></a></td><td><b>2</b></td><td><b>2</b></td><td><b>0</b></td>
@@ -81,10 +84,40 @@
      <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/MappedOrganization.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
+     <td><b></b></td><td><b>error</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.name for the resource StructureDefinition/ActorsMappedCapability.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/ActorsMappedCapability.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
      <td><b></b></td><td><b>error</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.name for the resource StructureDefinition/MappedCapability.  Name is mandatory if it cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/MappedCapability.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ActorsMappedCapability-definitions.html#l8342">output/StructureDefinition-ActorsMappedCapability-definitions.html#/html/body/div/div/div/p/a at Line 1497, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ActorsMappedCapability-examples.html#l352">output/StructureDefinition-ActorsMappedCapability-examples.html#/html/body/div/div/div/p/a at Line 278, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ActorsMappedCapability-mappings.html#l974">output/StructureDefinition-ActorsMappedCapability-mappings.html#/html/body/div/div/div/p/a at Line 371, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ActorsMappedCapability.html#l9484">output/StructureDefinition-ActorsMappedCapability.html#/html/body/div/div/div/p/a at Line 1280, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ActorsMappedCapability.profile.history.html#l347">output/StructureDefinition-ActorsMappedCapability.profile.history.html#/html/body/div/div/div/p/a at Line 267, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ActorsMappedCapability.profile.json.html#l11106">output/StructureDefinition-ActorsMappedCapability.profile.json.html#/html/body/div/div/div/p/a at Line 5681, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ActorsMappedCapability.profile.ttl.html#l23023">output/StructureDefinition-ActorsMappedCapability.profile.ttl.html#/html/body/div/div/div/p/a at Line 5045, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-ActorsMappedCapability.profile.xml.html#l20571">output/StructureDefinition-ActorsMappedCapability.profile.xml.html#/html/body/div/div/div/p/a at Line 5095, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b><a href="StructureDefinition-MappedCapability-definitions.html#l8342">output/StructureDefinition-MappedCapability-definitions.html#/html/body/div/div/div/p/a at Line 1497, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
@@ -96,19 +129,19 @@
      <td><b><a href="StructureDefinition-MappedCapability-mappings.html#l974">output/StructureDefinition-MappedCapability-mappings.html#/html/body/div/div/div/p/a at Line 371, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="StructureDefinition-MappedCapability.html#l9344">output/StructureDefinition-MappedCapability.html#/html/body/div/div/div/p/a at Line 1274, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+     <td><b><a href="StructureDefinition-MappedCapability.html#l9484">output/StructureDefinition-MappedCapability.html#/html/body/div/div/div/p/a at Line 1280, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b><a href="StructureDefinition-MappedCapability.profile.history.html#l347">output/StructureDefinition-MappedCapability.profile.history.html#/html/body/div/div/div/p/a at Line 267, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="StructureDefinition-MappedCapability.profile.json.html#l11079">output/StructureDefinition-MappedCapability.profile.json.html#/html/body/div/div/div/p/a at Line 5666, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+     <td><b><a href="StructureDefinition-MappedCapability.profile.json.html#l11106">output/StructureDefinition-MappedCapability.profile.json.html#/html/body/div/div/div/p/a at Line 5681, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="StructureDefinition-MappedCapability.profile.ttl.html#l22960">output/StructureDefinition-MappedCapability.profile.ttl.html#/html/body/div/div/div/p/a at Line 5033, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+     <td><b><a href="StructureDefinition-MappedCapability.profile.ttl.html#l23023">output/StructureDefinition-MappedCapability.profile.ttl.html#/html/body/div/div/div/p/a at Line 5045, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="StructureDefinition-MappedCapability.profile.xml.html#l20517">output/StructureDefinition-MappedCapability.profile.xml.html#/html/body/div/div/div/p/a at Line 5080, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+     <td><b><a href="StructureDefinition-MappedCapability.profile.xml.html#l20571">output/StructureDefinition-MappedCapability.profile.xml.html#/html/body/div/div/div/p/a at Line 5095, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b><a href="StructureDefinition-MappedOrganization-definitions.html#l2277">output/StructureDefinition-MappedOrganization-definitions.html#/html/body/div/div/div/p/a at Line 554, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
@@ -135,7 +168,7 @@
      <td><b><a href="StructureDefinition-MappedOrganization.profile.xml.html#l5454">output/StructureDefinition-MappedOrganization.profile.xml.html#/html/body/div/div/div/p/a at Line 1508, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="artifacts.html#l372">output/artifacts.html#/html/body/div/div/div/p/a at Line 222, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+     <td><b><a href="artifacts.html#l381">output/artifacts.html#/html/body/div/div/div/p/a at Line 228, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b><a href="changes.html#l330">output/changes.html#/html/body/div/div/div/p/a at Line 193, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
@@ -147,13 +180,35 @@
      <td><b><a href="index.html#l388">output/index.html#/html/body/div/div/div/p/a at Line 219, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="toc.html#l360">output/toc.html#/html/body/div/div/div/p/a at Line 182, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+     <td><b><a href="toc.html#l368">output/toc.html#/html/body/div/div/div/p/a at Line 182, column 28</a></b></td><td><b>error</b></td><td><b>The link 'xxxhttp://hl7.org/Special/committees/[something]' for &quot;xxxYour Work Group&quot; cannot be resolved</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_github_workspace_fsh-generated_resources_StructureDefinition-ActorsMappedCapability"> </a>
+<h2><a href="StructureDefinition-ActorsMappedCapability.html">fsh-generated/resources/StructureDefinition-ActorsMappedCapability.json</a> <span id="svi1" class="toggle" onclick="toggle('vi1')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi1')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi1"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/ActorsMappedCapability')</b></td><td><b>error</b></td><td title="RESOURCE_CANONICAL_MISMATCH"><b>Conformance resource /github/workspace/fsh-generated/resources/StructureDefinition-ActorsMappedCapability.json - the canonical URL (xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/ActorsMappedCapability) does not match the URL (http://example.com/fhir/example/StructureDefinition/ActorsMappedCapability)</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.snapshot.element[0].constraint[6].xpath</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'http://example.com/fhir/example/StructureDefinition/ActorsMappedCapability')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>fsh-generated/resources/StructureDefinition-ActorsMappedCapability</b></td><td><b>error</b></td><td title=""><b>URL Mismatch xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/ActorsMappedCapability vs http://example.com/fhir/example/StructureDefinition/ActorsMappedCapability</b></td>
    </tr>
 </table>
 <hr/>
 <a name="_github_workspace_fsh-generated_resources_StructureDefinition-MappedCapability"> </a>
-<h2><a href="StructureDefinition-MappedCapability.html">fsh-generated/resources/StructureDefinition-MappedCapability.json</a> <span id="svi1" class="toggle" onclick="toggle('vi1')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi1')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi1"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+<h2><a href="StructureDefinition-MappedCapability.html">fsh-generated/resources/StructureDefinition-MappedCapability.json</a> <span id="svi2" class="toggle" onclick="toggle('vi2')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi2')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi2"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -174,8 +229,8 @@
 </table>
 <hr/>
 <a name="_github_workspace_fsh-generated_resources_StructureDefinition-MappedOrganization"> </a>
-<h2><a href="StructureDefinition-MappedOrganization.html">fsh-generated/resources/StructureDefinition-MappedOrganization.json</a> <span id="svi2" class="toggle" onclick="toggle('vi2')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi2')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi2"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+<h2><a href="StructureDefinition-MappedOrganization.html">fsh-generated/resources/StructureDefinition-MappedOrganization.json</a> <span id="svi3" class="toggle" onclick="toggle('vi3')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi3')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi3"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -193,8 +248,8 @@
 </table>
 <hr/>
 <a name="_github_workspace_input_myig"> </a>
-<h2><a href="ImplementationGuide-xxxexample.fhir.uv.myig.html">input/myig.xml</a> <span id="svi3" class="toggle" onclick="toggle('vi3')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi3')">(0)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi3"></div>
+<h2><a href="ImplementationGuide-xxxexample.fhir.uv.myig.html">input/myig.xml</a> <span id="svi4" class="toggle" onclick="toggle('vi4')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi4')">(0)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi4"></div>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
@@ -232,6 +287,9 @@
 <h2>RESOURCE_CANONICAL_MISMATCH</h2>
  <table class="grid">
    <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-ActorsMappedCapability.html">fsh-generated/resources/StructureDefinition-ActorsMappedCapability.json</a></td><td><b>Conformance resource /github/workspace/fsh-generated/resources/StructureDefinition-ActorsMappedCapability.json - the canonical URL (xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/ActorsMappedCapability) does not match the URL (http://example.com/fhir/example/StructureDefinition/ActorsMappedCapability)</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
      <td><a href="StructureDefinition-MappedCapability.html">fsh-generated/resources/StructureDefinition-MappedCapability.json</a></td><td><b>Conformance resource /github/workspace/fsh-generated/resources/StructureDefinition-MappedCapability.json - the canonical URL (xxxhttp://somewhere.org/fhir/uv/myig/StructureDefinition/MappedCapability) does not match the URL (http://example.com/fhir/example/StructureDefinition/MappedCapability)</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
@@ -253,6 +311,9 @@
 <a name="Type_Specific_Checks_DT_String_WS"> </a>
 <h2>Type_Specific_Checks_DT_String_WS</h2>
  <table class="grid">
+   <tr style="background-color: #fff4ee">
+     <td><a href="StructureDefinition-ActorsMappedCapability.html">fsh-generated/resources/StructureDefinition-ActorsMappedCapability.json</a></td><td><b>value should not start or finish with whitespace</b></td>
+   </tr>
    <tr style="background-color: #fff4ee">
      <td><a href="StructureDefinition-MappedCapability.html">fsh-generated/resources/StructureDefinition-MappedCapability.json</a></td><td><b>value should not start or finish with whitespace</b></td>
    </tr>

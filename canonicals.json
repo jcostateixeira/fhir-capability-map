@@ -1,5 +1,12 @@
 [
   {
+    "id": "ActorsMappedCapability",
+    "type": "StructureDefinition",
+    "url": "http://example.com/fhir/example/StructureDefinition/ActorsMappedCapability",
+    "version": "0.1.0-test",
+    "name": "ActorsMappedCapability"
+  },
+  {
     "id": "MappedCapability",
     "type": "StructureDefinition",
     "url": "http://example.com/fhir/example/StructureDefinition/MappedCapability",
