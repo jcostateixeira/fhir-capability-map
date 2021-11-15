@@ -10,7 +10,14 @@
 	<li class="dropdown">
 		<a data-toggle="dropdown" href="#" class="dropdown-toggle">Background<b class="caret"></b>
 		</a>
-
+		<ul class="dropdown-menu">
+			<li>
+				<a href="intro.html">Artifact Index</a>
+			</li>
+			<li>
+				<a href="spec.html">Artifact Index</a>
+			</li>
+		</ul>
 	</li>
 	<!--
 	<li class="dropdown">
